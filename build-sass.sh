@@ -9,6 +9,7 @@ SASS_LIBSASS_PATH=/tmp/sassc/libsass make
 
 # install
 mv bin/sassc /usr/bin/sass
+ln -sf /usr/bin/sass /usr/bin/sassc
 
 # cleanup
 cd /
